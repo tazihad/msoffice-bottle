@@ -4,7 +4,7 @@ Creation_Date: '2024-07-01 07:29:59.055966'
 Custom_Path: false
 DLL_Overrides:
     riched20: n,b
-    riched30: n,b
+    gdiplus: n,b
 DXVK: dxvk-2.3.1
 Environment: Custom
 Environment_Variables: {}
