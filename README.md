@@ -1,5 +1,8 @@
 ### MS Office 2010
-Use Microsoft Office 2010 in Linux using WINE and Bottles.
+Use Microsoft Office 2010 in Linux using WINE and Bottles.  
+
+![Screenshot_20240701_123107](https://github.com/tazihad/msoffice-bottle/assets/19417232/6e51ebef-4e25-4a78-af1e-725c197fc8c2)  
+
 
 *Prerequisite:*   
 [Flatpak](https://flatpak.org/setup/)  
