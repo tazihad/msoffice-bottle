@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Office Word 2010
-Exec=bash -c "flatpak run --command=bottles-cli com.usebottles.bottles run -p 'Office Word 2010' -b 'office2010' -- $(echo \\'z:\\"%f\\"\\' | sed 's!/!\\\\\\\\\\\\\\\\!g')"
+Exec=bash -c "flatpak run --command=bottles-cli com.usebottles.bottles run -p 'WINWORD' -b 'office2010' -- $(echo \\'z:\\"%f\\"\\' | sed 's!/!\\\\\\\\\\\\\\\\!g')"
 Type=Application
 Terminal=false
 Categories=Application;
