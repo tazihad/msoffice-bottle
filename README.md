@@ -24,4 +24,8 @@ mkdir -p ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-8.2 && wget 
 
 ![Screenshot_20240701_114718](https://github.com/tazihad/msoffice-bottle/assets/19417232/ef064bed-62aa-4349-9424-7188cb4f6cb0)  
 
-8. That's it. Now install 32-bit version of *MS Office 2010*. Find the executable and run with Bottles.
+8. That's it. Now install 32-bit version of *MS Office 2010*. Find the executable and run with Bottles.  
+
+### File Integrations  
+Copy files `word.desktop`, `powerpoint.desktop`, `excel.desktop` files from [office2010-file-integrations](https://github.com/tazihad/msoffice-bottle/tree/main/office2010-file-integrations)  
+Change `Icon` path by changing to your username. 
