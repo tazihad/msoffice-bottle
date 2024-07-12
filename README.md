@@ -14,7 +14,12 @@ Use Microsoft Office 2010 in Linux using WINE and Bottles.
 
 1. Download WINE Runner:
 ```
-mkdir -p ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-8.2 && wget https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz -O /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz && tar -xz -C ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-8.2 --strip-components=1 -f /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz && rm /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz
+mkdir -p ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-8.2 && \
+wget https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz \
+-O /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz && \
+tar -xz -C ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-8.2 --strip-components=1 \
+-f /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz && \
+rm /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz
 ```
 
 2. Create a new bottle using Bottles named `office2010`  
