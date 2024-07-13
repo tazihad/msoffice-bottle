@@ -3,7 +3,7 @@ Name=Office Excel 2010
 Exec=bash -c "flatpak run --command=bottles-cli com.usebottles.bottles run -p 'EXCEL' -b 'office2010' -- $(echo \\'z:\\"%f\\"\\' | sed 's!/!\\\\\\\\\\\\\\\\!g')"
 Terminal=false
 Categories=Application;
-Icon=/home/zihad/.var/app/com.usebottles.bottles/data/bottles/bottles/office2010/icons/Office Excel 2010.png
+Icon=/home/zihad/.var/app/com.usebottles.bottles/data/bottles/bottles/office2010/icons/EXCEL.png
 Comment=Launch Office Excel 2010 using Bottles.
 StartupWMClass=Office Excel 2010
 Actions=Configure;
