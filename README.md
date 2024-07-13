@@ -45,4 +45,11 @@ rm /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz
 
 ### File Integrations  
 Copy files `word.desktop`, `powerpoint.desktop`, `excel.desktop` files from [office2010-file-integrations](https://github.com/tazihad/msoffice-bottle/tree/main/office2010-file-integrations)  
-Change `Icon` path by changing to your username. 
+ to `~/.local/share/applications` Change `Icon` path by changing to your username.  
+Or do run this command:  
+```
+mkdir -p ~/.local/share/applications && \
+curl -o ~/.local/share/applications/Office-Excel-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Excel-2010.desktop && \
+curl -o ~/.local/share/applications/Office-Powerpoint-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Powerpoint-2010.desktop && \
+curl -o ~/.local/share/applications/Office-Word-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Word-2010.desktop
+```
