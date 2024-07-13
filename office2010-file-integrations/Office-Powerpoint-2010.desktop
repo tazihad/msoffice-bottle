@@ -3,11 +3,11 @@ Name=Office Powerpoint 2010
 Exec=bash -c "flatpak run --command=bottles-cli com.usebottles.bottles run -p 'POWERPNT' -b 'office2010' -- $(echo \\'z:\\"%f\\"\\' | sed 's!/!\\\\\\\\\\\\\\\\!g')"
 Type=Application
 Terminal=false
-Categories=Application;
 Icon=/home/zihad/.var/app/com.usebottles.bottles/data/bottles/bottles/office2010/icons/POWERPNT.png
 Comment=Launch Office Powerpoint 2010 using Bottles.
 StartupWMClass=Office Powerpoint 2010
 Actions=Configure;
+Categories=Application;Office;Wine;
 [Desktop Action Configure]
 Name=Configure in Bottles
 Exec=flatpak run com.usebottles.bottles -b 'office2010'
