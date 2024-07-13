@@ -4,7 +4,7 @@ Exec=bash -c "flatpak run --command=bottles-cli com.usebottles.bottles run -p 'W
 Type=Application
 Terminal=false
 Categories=Application;
-Icon=/home/zihad/.var/app/com.usebottles.bottles/data/bottles/bottles/office2010/icons/Office Word 2010.png
+Icon=/home/zihad/.var/app/com.usebottles.bottles/data/bottles/bottles/office2010/icons/WINWORD.png
 Comment=Launch Office Word 2010 using Bottles.
 StartupWMClass=Office Word 2010
 Actions=Configure;
