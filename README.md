@@ -15,7 +15,7 @@ Permissions:
 Give drive permissions using flatseal or do from commandline
 ```
 flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
-flatpak override --user com.usebottles.bottles --filesystem=home
+flatpak override com.usebottles.bottles --user --filesystem=home
 ```
 
 1. Download WINE Runner:
