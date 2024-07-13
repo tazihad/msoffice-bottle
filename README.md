@@ -11,6 +11,12 @@ Use Microsoft Office 2010 in Linux using WINE and Bottles.
 [Flatpak](https://flatpak.org/setup/)  
 [Bottles installed by Flatpak](https://flathub.org/apps/com.usebottles.bottles)  
 
+Permissions:  
+Give drive permissions using flatseal or do from commandline
+```
+flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
+flatpak override --user com.usebottles.bottles --filesystem=home
+```
 
 1. Download WINE Runner:
 ```
