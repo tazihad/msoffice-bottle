@@ -55,7 +55,7 @@ curl -o ~/.local/share/applications/Office-Word-2010.desktop https://raw.githubu
 ```
 
 
-### Office 2013
+### Office 2013, 2016
 
 Wine runner pol-4.3:
 ```
