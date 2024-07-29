@@ -53,3 +53,16 @@ curl -o ~/.local/share/applications/Office-Excel-2010.desktop https://raw.github
 curl -o ~/.local/share/applications/Office-Powerpoint-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Powerpoint-2010.desktop && \
 curl -o ~/.local/share/applications/Office-Word-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Word-2010.desktop
 ```
+
+
+### Office 2013
+
+Wine runner pol-4.3:
+```
+mkdir -p ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 && \
+wget https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz \
+-O /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && \
+tar -xz -C ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 --strip-components=1 \
+-f /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && \
+rm /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz
+```
