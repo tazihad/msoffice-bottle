@@ -68,4 +68,4 @@ rm /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz
 ```
 
 # WORKING OFFICE SOURCE
-[Office 2010 Pro Plus (x86)](https://archive.org/download/microsoft-office-2010-home-and-business-key-card)  
+[Office 2010 Pro Plus (x86)](https://archive.org/download/microsoft-office-2010-home-and-business-key-card)  (X16-32007 is for 32-bit Windows)
