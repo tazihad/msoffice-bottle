@@ -66,3 +66,6 @@ tar -xz -C ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 --stri
 -f /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && \
 rm /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz
 ```
+
+# WORKING OFFICE SOURCE
+[Office 2010 Pro Plus (x86)](https://archive.org/download/microsoft-office-2010-home-and-business-key-card)  
